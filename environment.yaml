@@ -1,0 +1,31 @@
+# conda environment description file for Becca's field school analysis
+#
+# To create and environment from this file:
+#    $ conda env create -f environment.yaml
+# To activate that env:
+#    $ conda activate eosc573
+# To deactivate the env:
+#    (eosc573)$ deactivate
+# To add a new package to the env, add it to the dependencies list
+# below, then:
+#    (eosc573)$ conda env update -f environment.yaml
+# Choose a good name for your env!  Then replace env-name below with it
+name: eosc573
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - arrow
+  - bottleneck
+  - cmocean
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - numpy
+  - pandas
+  - pip
+  - python=3
+  - pytz
+  - scipy
+  - xarray
+  - seabird
